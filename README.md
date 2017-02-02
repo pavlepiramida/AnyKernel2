@@ -72,7 +72,7 @@ You may also use _ui_print "\<text\>"_ to write messages back to the recovery du
 
 4. Modify the anykernel.sh to add your kernel's name, boot partition location, permissions for included ramdisk files, and use methods for any required ramdisk modifications
 
-5. zip -r9 UPDATE-AnyKernel2.zip * -x README UPDATE-AnyKernel2.zip
+5. zip -r9 FrankenKernel.zip * -x README FrankenKernel.zip
 
 If supporting a recovery that forces zip signature verification (like Cyanogen Recovery) then you will need to also sign your zip using the method I describe here:
 

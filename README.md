@@ -72,7 +72,8 @@ You may also use _ui_print "\<text\>"_ to write messages back to the recovery du
 
 4. Modify the anykernel.sh to add your kernel's name, boot partition location, permissions for included ramdisk files, and use methods for any required ramdisk modifications
 
-5. zip -r9 FrankenKernel.zip * -x README FrankenKernel.zip
+5. Since I am lazy as fuck,I made 2 scripts make.sh that does "zip -r9 FrankenKernel.zip * -x README FrankenKernel.zip" and clean.sh for cleaning zip,modules and kernel binary.
+Feel free to use them when building any kylessopen kernel
 
 If supporting a recovery that forces zip signature verification (like Cyanogen Recovery) then you will need to also sign your zip using the method I describe here:
 
